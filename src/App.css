@@ -1,0 +1,26 @@
+
+
+.fadeTop {
+    visibility: hidden;
+    transform: translate(0, 10vh);
+    transition: all 1s;
+
+}
+
+.fadeRight {
+    visibility: hidden;
+    transform: translate(10vh, 0vh);
+    transition: all 1.4s;
+}
+
+.fadeLeft {
+    visibility: hidden;
+    transform: translate(-10vh, 0vh);
+    transition: all 1.4s;
+}
+
+.visible {
+    visibility: visible;
+    transform: translate(0, 0);
+}
+
